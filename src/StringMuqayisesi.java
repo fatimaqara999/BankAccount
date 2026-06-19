@@ -14,10 +14,6 @@ public class StringMuqayisesi {
         System.out.println(s1 == s2);   // true  — hər ikisi eyni "havuz" obyektidir
         System.out.println(s1 == s4);   // false — new String() YENİ obyekt yaradır!
 
-        // ŞƏRH: == obyektlərin EYNİ olub-olmadığını yoxlayır (yaddaş ünvanı).
-        // .equals() isə MƏZMUNU (hərfləri) müqayisə edir.
-        // s1==s2 → true: literal "test"-lər Java tərəfindən təkrar istifadə olunur (eyni obyekt).
-        // s1==s4 → false: new String() məcburi YENİ obyekt yaradır, ünvan fərqlidir.
-        // Ona görə String-i HƏMİŞƏ .equals() ilə müqayisə et, == ilə YOX!
+
     }
 }
